@@ -22,12 +22,13 @@ How we we create elements in JavaScript and add them to the page?
 
 */
 
+
 var canvas = document.querySelector('#canvas')
 
 for (var i = 0; i < 2500; i++) {
   var div = document.createElement('div')
   div.className += 'square'
-  div.addEventListener("mouseenter", paintSquare)
+  // div.addEventListener("mouseenter", paintSquare) // we can add the event listener here, if we want
   canvas.appendChild( div )
 }
 
@@ -75,3 +76,18 @@ Hints:
 function paintSquare( e ) {
   e.target.style.backgroundColor = currentColor
 }
+
+canvas.addEventListener('mouseover', paintSquare)
+
+
+/*
+  A note on the event handling and event propogation
+
+  I mentioned event propogation in class. When doing something like this, you have two options:
+  1. Get every div with a class of 'square' and add the same event to each one.
+  2. Attach an event listener to the parent and then style the specific square using `event.target`.
+
+  Follow up notes:
+  - we're already looping through our divs above when we create them, so if we're going to add the event to each individual square, why not add the event there?
+  - there are a lot of differet kinds of events. If we want to add the event to the canvas element, we can't use 'mouseenter', because that will only fire when the mouse enters the canvas and our event target will be the canvas.
+ */

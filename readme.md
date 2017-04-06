@@ -168,30 +168,30 @@ Today's lesson is short and sweet! We'll go over npm and breaking our program ou
 
 
 ### Class 08: Events
+Today's class goes in depth on event driven development, responding to browser/user events with Javascript  and writing event handlers.
 
 #### Learning Objectives
 - Implement events using JavaScript
-- Understand Templating, template methods and template helpers
-- Work with both events and templates
+- Understand how to work with events and how to implement event handlers
+- Learn about event propogation
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc-4/08-events-and-templating)
-- [Assignment](08-events-and-templating/assignment/)
-- [Lesson Notes](08-events-and-templating/lesson_plan.md)
+- [Slides](https://ga-students.github.io/js-dc-4/08-events)
+- [Assignment](08-events/assignment/)
+- [Lesson Notes](08-events/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=R0_9uYY6qDA)
 
-
-### Class 09: Templating & Build Tools
+### Class 09: Templating
 
 #### Learning Objectives
 - Use Handlebars templates to turn JS into HTML
-- Understand each part of the MVC architecture
-- Use MVC to organize a front-end applications
+- build a simple dynamic application using Handlebars and JS
 
 #### Materials
-- [Slides](https://ga-students.github.io/js-dc-4/09-mvc)
-- [Assignment](09-mvc/assignment.md)
-- [Lesson Notes](09-mvc/lesson_plan.md)
-
+- [Slides](https://ga-students.github.io/js-dc-4/09-templating/)
+- [Assignment](09-templating/assignment.md)
+- [Lesson Notes](09-templating/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=SScBAes8kss)
 
 ### Class 10: Express
 
@@ -204,12 +204,13 @@ Today's lesson is short and sweet! We'll go over npm and breaking our program ou
 - [Slides](https://ga-students.github.io/js-dc-4/10-express)
 - [Assignment](10-express/assignment.md)
 - [Lesson Notes](10-express/lesson_plan.md)
+- [Lesson](https://www.youtube.com/watch?v=_7Xgg3XA4nk)
 
 
 ### Class 11: CRUD and Databases
 
 #### Learning Objectives
-- Understand the different types of databases and the basics of their differences
+- Understand the differences between different types of databases
 - Describe what CRUD operations are and how they are used
 - Describe an ORM
 - Set up a simple `Express` application that uses `Mongoose` as an ORM to connect to a `MongoDB` database
@@ -294,3 +295,6 @@ Today's lesson is short and sweet! We'll go over npm and breaking our program ou
 
 ### Class 19: Presentations
 Students will have 10 minutes to present their final projects. See the [presentation requirements here](20-presentations/requirements.md)
+
+### Class 19+: Profit
+Students will $$$
