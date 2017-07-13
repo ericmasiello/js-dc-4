@@ -96,7 +96,7 @@
 
 ### 2009
 - nothing happens for 10 years
-- gives JS the chance t o build an incredible market share
+- gives JS the chance to build an incredible market share
 - leads to incredibly wide cross-browser support
 
 ### 2000
